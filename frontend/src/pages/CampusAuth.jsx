@@ -53,7 +53,7 @@ const CampusAuth = () => {
     }
 
     if (!isValidCollegeEmail(formData.email)) {
-      showMessage("error", "Only college emails like @mlrit.ac.in are allowed");
+      showMessage("error", "Only college emails ending in .ac.in or .edu.in are allowed");
       return;
     }
 
